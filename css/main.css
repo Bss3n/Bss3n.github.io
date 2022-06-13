@@ -1,3 +1,33 @@
-.center{
-
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
 }
+.center {
+    text-align: center;
+}
+.headline {
+    @import url(//fonts.googleapis.com/css?family=Roboto);
+    font-size: 140%;
+    margin: 1.5cm;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.headline_cropper{
+    position: relative;
+    width: 100%;
+    height: 8cm;
+    overflow: hidden;
+}
+.headline_image{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    right: -9999px;
+    bottom: -9999px;
+    margin: auto;
+}
+
