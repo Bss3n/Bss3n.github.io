@@ -1,33 +1,22 @@
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
+body{
+    margin: 0;
+}
+h1{
+    margin-top: 0;
+}
+.mainheader{
+    background-color: rgba(208, 38, 38, 0.72);
+    height: 200px;
 }
 .center {
     text-align: center;
 }
 .headline {
     @import url(//fonts.googleapis.com/css?family=Roboto);
-    font-size: 140%;
-    margin: 1.5cm;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-.headline_cropper{
-    position: relative;
-    width: 100%;
-    height: 8cm;
-    overflow: hidden;
-}
-.headline_image{
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-    right: -9999px;
-    bottom: -9999px;
-    margin: auto;
+    font-size: 300%;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
